@@ -4,13 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Budget Tracker PWA</title>
+<title>Expense History</title>
 <link rel="stylesheet" href="style.css">
-<link rel="manifest" href="manifest.json">
 </head>
 <body>
 <header>
-  <h1>Budget Tracker Dashboard</h1>
+  <h1>Expense History</h1>
   <nav>
     <a href="index.html">Dashboard</a>
     <a href="add.html">Add Expense</a>
@@ -21,10 +20,7 @@
   </nav>
 </header>
 <main>
-  <div id="summary">
-    <h2>Total Expenses: $<span id="total-expense">0</span></h2>
-    <h2>Budget: $<span id="budget">0</span></h2>
-  </div>
+  <ul id="expense-list"></ul>
 </main>
 <script src="app.js"></script>
 </body>

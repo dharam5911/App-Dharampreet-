@@ -1,9 +1,8 @@
 
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 20px;
-}
-#app input { margin: 5px; padding: 5px; }
-#app button { padding: 5px 10px; }
-#expense-list { list-style: none; padding: 0; }
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+header { background:#2196f3; color:#fff; padding:10px; text-align:center; }
+nav a { margin:0 10px; color:#fff; text-decoration:none; }
+main { padding:20px; }
+.form-group input { margin:5px; padding:5px; }
+button { padding:5px 10px; }
+#expense-list, #pdf-list { list-style:none; padding:0; }
